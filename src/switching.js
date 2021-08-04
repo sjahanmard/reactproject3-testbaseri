@@ -1,7 +1,7 @@
 import { max } from "d3-array";
 import React from "react";
 
-var toggle = []
+
 
 export default class Displaying extends React.Component{ 
     constructor(props) {
@@ -14,9 +14,7 @@ export default class Displaying extends React.Component{
         // console.log(this.state.s1)
         // }
 
-        if (!toggle.includes(this.props.actor.actorname)){
-            toggle = [...toggle, this.props.actor.actorname];
-        }
+
   
         }
         switchUpdate = () => {
